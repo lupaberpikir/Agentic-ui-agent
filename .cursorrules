@@ -1,0 +1,32 @@
+# .cursorrules
+# Project-level context. Skills handle workflow logic — keep this lean.
+
+## Critical rule
+
+Before touching ANY UI file, read `design.md` in full.
+It is the source of truth for all visual decisions on this project.
+
+## Skills available
+
+Three skills are installed in `.cursor/skills/`:
+
+- **extractor** — reads design source, populates design.md. Run first on any new project or after design changes.
+- **builder** — implements UI from design.md. Includes full-cycle-dev phases (Figma→code, review, QA).
+- **qa** — reviews output against design.md. Always produces a report.
+
+Sequence: extractor → builder → qa. Never skip.
+
+## When design changes
+
+1. Update `## Active Design Decisions` in design.md first
+2. Run extractor skill if Figma/screenshots changed
+3. Run builder skill on affected sections
+4. Run qa skill before considering done
+
+## Hard rules (always on)
+
+- No colors outside design.md tokens
+- No generic Tailwind blue as primary
+- No Lorem Ipsum
+- No unsolicited animations or effects
+- Flag every judgment call explicitly

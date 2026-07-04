@@ -1,0 +1,10 @@
+{
+  "name": "a11y-check",
+  "version": "1.0.0",
+  "description": "WCAG hard gate checker for design.md-based projects",
+  "bin": {
+    "a11y-check": "./a11y-check.js",
+    "agentic-ui-init": "./init-project.sh"
+  },
+  "preferGlobal": true
+}
