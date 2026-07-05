@@ -1,7 +1,7 @@
 # Builder
 # Role: Implement UI from design.md as the single source of truth
 # Run AFTER Extractor has populated design.md
-# Platform: Claude Code / Cursor / Codex
+# Platform: Claude Code / Cursor
 
 ---
 
