@@ -1,6 +1,6 @@
 # Agentic UI Workflow
 
-A universal 3-agent design system for AI-assisted UI development. Works with Claude Code, Cursor, and Codex.
+A universal 2-agent design system for AI-assisted UI development. Works with Claude Code and Cursor
 
 **The problem it solves:** AI generates the same generic UI every session because it has no memory of your design. This workflow gives it persistent context — once per project.
 
