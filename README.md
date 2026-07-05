@@ -80,7 +80,6 @@ Works from any subfolder — walks up to find `design.md` automatically.
 |----------|--------|
 | Claude Code | `~/.claude/CLAUDE.md` (set by installer) |
 | Cursor | Paste into Settings → Rules for AI (installer prints the text) |
-| Codex | `AGENTS.md` in project root (template included) |
 
 ---
 
@@ -135,6 +134,5 @@ Works from any subfolder — walks up to find `design.md` automatically.
 ├── builder.md          ← Agent 2 instructions
 ├── qa.md               ← Agent 3 instructions
 ├── CLAUDE.md           ← Claude Code platform config (project-level template)
-├── .cursorrules        ← Cursor platform config (project-level template)
-└── AGENTS.md           ← Codex platform config (project-level template)
+└── .cursorrules        ← Cursor platform config (project-level template)
 ```
