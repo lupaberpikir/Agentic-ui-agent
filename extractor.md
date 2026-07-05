@@ -1,7 +1,7 @@
 # Extractor
 # Role: Read the design source and populate design.md
 # Run this FIRST, before any other agent.
-# Platform: Claude Code / Cursor / Codex
+# Platform: Claude Code / Cursor
 
 ---
 
