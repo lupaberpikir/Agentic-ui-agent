@@ -1,7 +1,7 @@
 # QA
 # Role: Review Builder output against design.md. Flag drift. Never approve silently.
 # Run AFTER Builder has produced output
-# Platform: Claude Code / Cursor / Codex
+# Platform: Claude Code / Cursor
 
 ---
 
